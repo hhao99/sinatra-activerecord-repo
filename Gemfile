@@ -2,6 +2,13 @@
 
 source "https://rubygems.org"
 
+gem 'rake'
+gem 'rack'
+
 gem 'sinatra'
 gem 'sinatra-contrib'
-gem 'thin'
+gem 'puma'
+
+group :development do
+    gem 'pry'
+end

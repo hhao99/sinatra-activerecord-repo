@@ -5,6 +5,5 @@ mkShell {
   ];
   shellHook = ''
     alias ll="ls -al"
-
   '';
 }
