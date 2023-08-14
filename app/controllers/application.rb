@@ -1,7 +1,7 @@
 class Application  
 
     get '/' do
-        @root = settings.root
+       @users = User.all
        slim :index, :layout => :layout 
     end
     get '/about' do

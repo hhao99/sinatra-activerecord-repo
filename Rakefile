@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'rspec/core/rake_task'
 require 'sinatra/activerecord/rake'
+require 'sinatra/activerecord'
 
 task :default => :test
 task :test => :spec
