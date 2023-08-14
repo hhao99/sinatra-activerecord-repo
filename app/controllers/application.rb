@@ -16,4 +16,7 @@ class Application < Sinatra::Base
     get '/' do
        slim :index, :layout => :layout 
     end
+    get '/about' do
+        slim :about, :layout => :layout
+    end
 end
