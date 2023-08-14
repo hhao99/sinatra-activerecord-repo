@@ -7,8 +7,10 @@ gem 'rack'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'sinatra-activerecord'
 gem 'puma'
 gem 'slim'
+gem 'sqlite3', group: [:test, :development]
 
 group :development do
     gem 'pry'
